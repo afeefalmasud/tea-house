@@ -4,3 +4,78 @@
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
 }
+/* banner */
+@keyframes banner1 {
+ 0% {
+    transform: translateX(-800px);
+    opacity: 0; 
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1; 
+  }
+}
+@keyframes banner2 {
+ 0% {
+    transform: translateX(800px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1; 
+  }
+}
+/* button */
+.banner-left{
+   animation: banner1 2s ease-in-out forwards;
+   
+}
+.banner-right{
+   animation: banner2 2s ease-in-out forwards;
+   
+}
+.button{
+  border: 2px solid;
+}
+.button:hover{
+  background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0));
+  border: 2px solid #FF8938;
+  color: #FF8938;
+  transition: 0.2s all ease-in;
+}
+/* Featured */
+.card-2 h2{
+  color: #6c6c6c;
+}
+.card-2:hover{
+  transform: translateY(-20px);
+  background: linear-gradient(to bottom, #ff4a4a, #ffb584);
+  transition: 0.3s all ease-in;
+}
+.card-2:hover p{
+  color: rgb(255, 247, 247);
+}
+.card-2:hover h2{
+  color: #eeeeee;
+}
+
+.button-2:hover{
+  transform: scale(1.08);
+  transition: 0.3s all ease-in;
+}
+/* News */
+.card:hover{
+  transform: translateY(-25px);
+  border-color: #FF8938;
+  transition: 0.4s all ease-in;
+}
+.cards a:hover{
+  color: #FF8938;
+}
+/* footer */
+.links ul li a:hover{
+  color: #FF8938;
+}
+.links a i:hover{
+  color: #FF8938;
+}

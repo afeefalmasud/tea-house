@@ -23,13 +23,13 @@
 </head>
 <body class="manrope-font">
     <!-- Banner Section -->
-    <section class="min-h-screen grid grid-col-1 lg:grid-cols-2 container mx-auto px-10 lg:px-0 items-center">
-        <div class="space-y-[30px] py-[70px]">
+    <section class="min-h-screen grid grid-col-1 lg:grid-cols-2 container mx-auto px-[10%] md:px-0 items-center">
+        <div class="space-y-[30px] py-[70px] banner-left">
             <h1 class="font-bold text-[65px] md:text-[80px]">It's good <br> tea time at The <br> Tea House</h1>
             <p class="font-medium text-[18px] text-[#777777]">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
-            <button class="py-[18px] px-5 text-[20px] font-bold text-white bg-linear-65 from-[#FF8938] to-[#FF0000] rounded-[10px]">Explore More <span class="-rotate-45 inline-block"><i class="fa-solid fa-arrow-right"></i></span></button>
+            <button class="py-[18px] px-5 text-[20px] font-bold text-white bg-linear-65 from-[#FF8938] to-[#FF0000] rounded-[10px] cursor-pointer button">Explore More <span class="-rotate-45 inline-block"><i class="fa-solid fa-arrow-right"></i></span></button>
         </div>
-        <div class="flex justify-end items-center relative h-[500px] my-0 lg:my-[150px]">
+        <div class="flex justify-end items-center relative h-[500px] my-0 lg:my-[150px] banner-right">
             <img src="images/banner.png" alt="">
             <div class="flex px-5 py-2 md:px-6.5 md:py-5 bg-white justify-center items-center gap-3.5 w-[180px] md:w-[255px] rounded-xl shadow-2xl absolute left-10 bottom-15 md:left-30 md:bottom-5">
                 <img src="images/star.png" alt="">
@@ -42,28 +42,28 @@
     </section>
 
     <!-- Featured Section -->
-    <section class="flex flex-col container mx-auto min-h-screen">
+    <section class="flex flex-col container mx-auto min-h-screen px-[10%] md:px-0 pt-[130px] lg:pt-0">
         <div class="flex flex-col justify-center items-center text-center">
             <h1 class="font-extrabold text-[40px] md:text-[45px] mb-5">Our Featured Products</h1>
-            <p class="font-medium text-[16px] text-[#777777] mb-12.5 w-[80%] md:w-[58%]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            <p class="font-medium text-[16px] text-[#777777] mb-12.5 md:w-[58%]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-auto gap-6">
-            <div class="p-[30px] bg-linear-to-t from-[#fff8f8] to-[#e7e7e7] w-[290px] rounded-xl">
+            <div class="p-[30px] bg-linear-to-t from-[#fff8f8] to-[#e7e7e7] w-[290px] rounded-xl card-2">
                 <img src="images/tea-1.png" alt="" class="mx-auto pb-7">
                 <h2 class="font-extrabold text-[25px] text-center pb-2">Milk Tea</h2>
                 <p class="font-semibold text-[16px] text-[#777777] text-center">Creamer could be replaced by fresh milk</p>
             </div>
-            <div class="p-[30px] bg-linear-to-t from-[#fff8f8] to-[#e7e7e7] w-[290px] rounded-xl">
+            <div class="p-[30px] bg-linear-to-t from-[#fff8f8] to-[#e7e7e7] w-[290px] rounded-xl card-2">
                 <img src="images/tea-2.png" alt="" class="mx-auto pb-7">
                 <h2 class="font-extrabold text-[25px] text-center pb-2">Black Tea</h2>
                 <p class="font-semibold text-[16px] text-[#777777] text-center">Creamer could be replaced by fresh milk</p>
             </div>
-            <div class="p-[30px] bg-linear-to-t from-[#fff8f8] to-[#e7e7e7] w-[290px] rounded-xl">
+            <div class="p-[30px] bg-linear-to-t from-[#fff8f8] to-[#e7e7e7] w-[290px] rounded-xl card-2">
                 <img src="images/tea-3.png" alt="" class="mx-auto pb-7">
                 <h2 class="font-extrabold text-[25px] text-center pb-2">Lemon Tea</h2>
                 <p class="font-semibold text-[16px] text-[#777777] text-center">Creamer could be replaced by fresh milk</p>
             </div>
-            <div class="p-[30px] bg-linear-to-t from-[#fff8f8] to-[#e7e7e7] w-[290px] rounded-xl">
+            <div class="p-[30px] bg-linear-to-t from-[#fff8f8] to-[#e7e7e7] w-[290px] rounded-xl card-2">
                 <img src="images/tea-4.png" alt="" class="mx-auto pb-7">
                 <h2 class="font-extrabold text-[25px] text-center pb-2">Green Tea</h2>
                 <p class="font-semibold text-[16px] text-[#777777] text-center">Creamer could be replaced by fresh milk</p>
@@ -73,7 +73,7 @@
 
     <!-- Great Tea Section-->
     <section class="min-h-screen">
-        <div class="flex gap-13 container mx-auto items-center"> 
+        <div class="flex gap-13 container px-[10%] md:px-0 mx-auto items-center flex-col md:flex-row pt-[130px] lg:pt-0"> 
             <div class="grid grid-cols-2 gap-7.5 auto-rows-[136px] flex-1">
                 <div class="rounded-2xl  bg-linear-to-r from-[#FF0000] to-[#FF8938] opacity-12"></div>
                 <div class="bg-[#fce6ec] rounded-2xl row-span-3 flex items-center justify-center">
@@ -98,15 +98,15 @@
     </section>
 
     <!-- Client Section -->
-    <section class="min-h-screen">
-        <div class="container mx-auto px-[70px] grid grid-cols-2 gap-15 bg-linear-to-l from-[#FF0000] to-[#FF8938] items-center rounded-2xl">
-            <div class=" text-white ">
+    <section class="min-h-screen pt-[130px] lg:pt-0 px-[10%] lg:px-0">
+        <div class="container mx-auto px-[70px] grid grid-cols-1 lg:grid-cols-2 justify-items-center gap-15 bg-linear-to-l from-[#FF0000] to-[#FF8938] items-center rounded-2xl">
+            <div class=" text-white pt-15 lg:pt-0">
                 <h1 class="font-extrabold text-[45px] pb-5">Meet Our Super <br> Clients</h1>
                 <p class="font-medium pb-7.5">There are many variations of passages of Lorem Ipsum available, <br> but the majority have suffered alteration in some form, <br> by injected humour,  or randomised words which don't look even <br> slightly believable. </p>
-                <button class="py-[15px] px-7 text-[20px] font-bold bg-white rounded-[10px]"><span class="bg-linear-65 from-[#FF8938] to-[#FF0000] bg-clip-text text-transparent">Show All</span></button>
+                <button class="py-[15px] px-7 text-[20px] font-bold bg-white rounded-[10px] cursor-pointer button-2"><span class="bg-linear-65 from-[#FF8938] to-[#FF0000] bg-clip-text text-transparent">Show All</span></button>
             </div>
             <div class="relative my-[85px] flex flex-col items-end">
-                <div class="bg-white w-[433px] px-10 rounded-xl relative mb-5 opacity-50">
+                <div class="bg-white w-[250px] md:w-[433px] px-10 rounded-xl relative mb-5 opacity-50">
                     <p class="pb-5 pt-10 font-normal text-[#777777]">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
                     <h4 class="font-bold pb-1">Ilham Yuda</h4>
                     <p class="font-medium text-[#5D5A6F]">Businessman</p>
@@ -117,7 +117,7 @@
                         <img src="images/circles.png" alt="">
                     </div>
                 </div>
-                <div class="bg-white w-[433px] px-10 rounded-xl relative opacity-50">
+                <div class="bg-white w-[250px] md:w-[433px] px-10 rounded-xl relative opacity-50">
                     <p class="pb-5 pt-10 font-normal text-[#777777]">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
                     <h4 class="font-bold pb-1">Ilham Yuda</h4>
                     <p class="font-medium text-[#5D5A6F]">Businessman</p>
@@ -128,8 +128,8 @@
                         <img src="images/circles.png" alt="">
                     </div>
                 </div>
-                <div class="absolute top-[28%] left-20">
-                    <div class="bg-white w-[433px] px-10 rounded-xl relative">
+                <div class="absolute top-[28%] right-8 md:right-15 lg:left-20">
+                    <div class="bg-white w-[250px] md:w-[433px] px-10 rounded-xl relative">
                     <p class="pb-5 pt-10 font-normal text-[#777777]">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
                     <h4 class="font-bold pb-1">Ilham Yuda</h4>
                     <p class="font-medium text-[#5D5A6F]">Businessman</p>
@@ -146,28 +146,28 @@
     </section>
 
     <!-- News Section -->
-    <section class="min-h-screen">
-        <div class="container mx-auto">
-            <div class="flex flex-col items-center">
+    <section class="min-h-screen pt-[130px] lg:pt-0">
+        <div class="container mx-auto px-[10%] md:px-0">
+            <div class="flex flex-col md:items-center text-center">
                 <h1 class="font-extrabold text-[45px] mb-5">News & Events</h1>
-                <p class="font-medium text-[16px] text-[#777777] mb-[50px] w-[80%] md:w-[58%] text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                <p class="font-medium text-[16px] text-[#777777] mb-[50px]  md:w-[58%] text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
             </div>
-            <div class="flex justify-center gap-12">
-                <div class="border-[#D2D2D2] border-2 rounded-2xl p-5 w-[360px]">
+            <div class="flex justify-center items-center flex-col md:flex-row gap-12 cards">
+                <div class="border-[#D2D2D2] border-2 rounded-2xl p-5 w-[360px] card">
                     <img src="images/news-1.png" alt="" class="mb-5">
                     <p class="mb-2.5 font-medium text-[16px] text-[#777777]">Feb 05, 2027</p>
                     <h3 class="mb-2.5 font-extrabold text-[20px]">Collecting 8 points for <br> discount</h3>
                     <p class="mb-2.5 font-medium text-[16px] text-[#777777]">There are many variations of passages of <br> Lorem Ipsum available.</p>
                     <a href="#" class="font-bold text-[16px] text-[#1C1C1C]">Learn More</a>
                 </div>
-                <div class="border-[#D2D2D2] border-2 rounded-2xl p-5 w-[360px]">
+                <div class="border-[#D2D2D2] border-2 rounded-2xl p-5 w-[360px] card">
                     <img src="images/news-2.png" alt="" class="mb-5">
                     <p class="mb-2.5 font-medium text-[16px] text-[#777777]">Feb 05, 2027</p>
                     <h3 class="mb-2.5 font-extrabold text-[20px]">Collecting 8 points for <br> discount</h3>
                     <p class="mb-2.5 font-medium text-[16px] text-[#777777]">There are many variations of passages of <br> Lorem Ipsum available.</p>
                     <a href="#" class="font-bold text-[16px] text-[#1C1C1C]">Learn More</a>
                 </div>
-                <div class="border-[#D2D2D2] border-2 rounded-2xl p-5 w-[360px]">
+                <div class="border-[#D2D2D2] border-2 rounded-2xl p-5 w-[360px] card">
                     <img src="images/news-3.png" alt="" class="mb-5">
                     <p class="mb-2.5 font-medium text-[16px] text-[#777777]">Feb 05, 2027</p>
                     <h3 class="mb-2.5 font-extrabold text-[20px]">Collecting 8 points for <br> discount</h3>
@@ -179,18 +179,18 @@
     </section>
     
     <!-- Footer Section -->
-    <section class="bg-[#fce6ec]">
+    <section class="bg-[#fce6ec] mt-[130px] lg:pt-0">
         <div class="container mx-auto">
-            <div class="pt-[130px] flex justify-between mb-[100px]"> 
-                <img src="images/cup.png" alt="">
-                <div class="flex items-center gap-10">
+            <div class="pt-[130px] flex md:justify-between items-center flex-col md:flex-row mb-[100px]"> 
+                <img src="images/cup.png" alt="" class="pb-15 md:pb-0">
+                <div class="flex items-center flex-col md:flex-row gap-10">
                     <p class="text-[#494949] font-medium text-[20px]">Ready to get strated?</p>
                     <button
-                        class="py-[15px] px-6 text-[20px] font-bold text-white bg-linear-65 from-[#FF8938] to-[#FF0000] rounded-[10px]">Get
+                        class="py-[15px] px-6 text-[20px] font-bold text-white bg-linear-65 from-[#FF8938] to-[#FF0000] rounded-[10px] cursor-pointer button">Get
                         Started</button>
                 </div>
             </div>
-            <div class="grid grid-cols-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center md:justify-items-stretch text-center md:text-left space-y-10 md:space-y-0 links">
                 <div>
                     <h2 class="font-semibold text-[20px] text-[#1C1C1C] mb-5.5">Quick Links</h2>
                     <ul>
@@ -218,14 +218,14 @@
                 </div>
                 <div>
                     <h2 class="font-semibold text-[24px] text-[#1C1C1C] mb-10">Subscribe to our <br> newsletter</h2>
-                    <div>
-                        <input type="email" placeholder="Email address" class="border-b-2 border-[#494949] pb-5 font-bold text-[14px]">   
-                        <button class="py-3.5 px-4 text-white bg-linear-65 from-[#FF8938] to-[#FF0000] rounded-full mx-5"><i class="fa-solid fa-angle-right"></i></button>
+                    <div class="flex flex-col md:flex-row items-center">
+                        <input type="email" placeholder="Email address" class="border-b-2 border-[#494949] pb-5 font-bold text-[14px] mb-5 md:mb-0 w-full md:w-auto">   
+                        <button class="py-3.5 px-4 text-white bg-linear-65 from-[#FF8938] to-[#FF0000] rounded-full mx-5 cursor-pointer button"><i class="fa-solid fa-angle-right"></i></button>
                     </div>
-                    <div class="flex gap-6 mt-12">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
+                    <div class="flex gap-6 mt-12 justify-center md:justify-start">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i> </a> 
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
